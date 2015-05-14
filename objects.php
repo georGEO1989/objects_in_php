@@ -21,14 +21,3 @@ function checkString($this){
 $string = "This is totally spam";
 
 checkString($string);
-
-/* Git commands
-
-echo # objects_in_php >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/georGEO1989/objects_in_php.git
-git push -u origin master
-
-*/
