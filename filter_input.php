@@ -1,10 +1,9 @@
 <?php
-include_once "input.php";
 
 function checkString($this){ #function object
 	//filter for the spam list
 	$filter_list = array();
-	array_push($filter_list, "email",
+	array_push($filter_list, "This",
 							 "computer",
 						 	 "microsoft",
 						     "windows"
@@ -18,6 +17,6 @@ function checkString($this){ #function object
 	}
 }
 
-// $string = "This is totally spam";
+$string = "This is totally spam";
 
-checkString($output);
+checkString($string);
